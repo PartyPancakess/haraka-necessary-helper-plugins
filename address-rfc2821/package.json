@@ -1,0 +1,66 @@
+{
+  "_from": "address-rfc2821@*",
+  "_id": "address-rfc2821@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha1-EEdk8eMakmvdBXHjqcLPyEORzt0=",
+  "_location": "/address-rfc2821",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "address-rfc2821@*",
+    "name": "address-rfc2821",
+    "escapedName": "address-rfc2821",
+    "rawSpec": "*",
+    "saveSpec": null,
+    "fetchSpec": "*"
+  },
+  "_requiredBy": [
+    "/haraka-plugin-aliases"
+  ],
+  "_resolved": "https://registry.npmjs.org/address-rfc2821/-/address-rfc2821-1.1.3.tgz",
+  "_shasum": "104764f1e31a926bdd0571e3a9c2cfc84391cedd",
+  "_spec": "address-rfc2821@*",
+  "_where": "/opt/haraka_demo/node_modules/haraka-plugin-aliases",
+  "author": {
+    "name": "The Haraka Team",
+    "url": "http://haraka.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/haraka/node-address-rfc2821/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "punycode": "^2.1.0"
+  },
+  "deprecated": false,
+  "description": "RFC 2821 (Envelope) email address parser",
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-plugin-haraka": "*",
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/haraka/node-address-rfc2821",
+  "keywords": [
+    "email",
+    "envelope",
+    "address",
+    "rfc821",
+    "rfc2821",
+    "mail",
+    "from"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "address-rfc2821",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haraka/node-address-rfc2821.git"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "lintfix": "eslint --fix *.js",
+    "test": "mocha"
+  },
+  "version": "1.1.3"
+}
