@@ -1,6 +1,6 @@
 'use strict';
 
-const punycode = require('punycode');
+const punycode = require('../punycode');
 
 // a class encapsulating an email address per RFC-2821
 
