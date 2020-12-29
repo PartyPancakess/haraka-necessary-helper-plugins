@@ -1,0 +1,19 @@
+{
+  "name": "haraka-necessary-helper-plugins",
+  "version": "1.0.0",
+  "description": "All the dependencies that are needed by my other plugins are gathered here.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PartyPancakess/haraka-necessary-helper-plugins.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PartyPancakess/haraka-necessary-helper-plugins/issues"
+  },
+  "homepage": "https://github.com/PartyPancakess/haraka-necessary-helper-plugins#readme"
+}
