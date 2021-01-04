@@ -1,35 +1,57 @@
 {
-  "_from": "@grpc/proto-loader@^0.5.5",
+  "_args": [
+    [
+      {
+        "raw": "@grpc/proto-loader@^0.5.1",
+        "scope": "@grpc",
+        "escapedName": "@grpc%2fproto-loader",
+        "name": "@grpc/proto-loader",
+        "rawSpec": "^0.5.1",
+        "spec": ">=0.5.1 <0.6.0",
+        "type": "range"
+      },
+      "/home/bilge/Documents/sadasds/node_modules/etcd3"
+    ]
+  ],
+  "_from": "@grpc/proto-loader@>=0.5.1 <0.6.0",
+  "_hasShrinkwrap": false,
   "_id": "@grpc/proto-loader@0.5.5",
-  "_inBundle": false,
-  "_integrity": "sha512-WwN9jVNdHRQoOBo9FDH7qU+mgfjPc8GygPYms3M+y3fbQLfnCe/Kv/E01t7JRgnrsOHH8euvSbed3mIalXhwqQ==",
+  "_inCache": true,
   "_location": "/@grpc/proto-loader",
+  "_nodeVersion": "12.16.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/proto-loader_0.5.5_1594403503140_0.9365481759176042"
+  },
+  "_npmUser": {
+    "name": "murgatroid99",
+    "email": "mlumish@google.com"
+  },
+  "_npmVersion": "6.14.4",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "@grpc/proto-loader@^0.5.5",
-    "name": "@grpc/proto-loader",
-    "escapedName": "@grpc%2fproto-loader",
+    "raw": "@grpc/proto-loader@^0.5.1",
     "scope": "@grpc",
-    "rawSpec": "^0.5.5",
-    "saveSpec": null,
-    "fetchSpec": "^0.5.5"
+    "escapedName": "@grpc%2fproto-loader",
+    "name": "@grpc/proto-loader",
+    "rawSpec": "^0.5.1",
+    "spec": ">=0.5.1 <0.6.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/etcd3"
   ],
   "_resolved": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.5.5.tgz",
   "_shasum": "6725e7a1827bdf8e92e29fbf4e9ef0203c0906a9",
-  "_spec": "@grpc/proto-loader@^0.5.5",
-  "_where": "",
+  "_shrinkwrap": null,
+  "_spec": "@grpc/proto-loader@^0.5.1",
+  "_where": "/home/bilge/Documents/sadasds/node_modules/etcd3",
   "author": {
     "name": "Google Inc."
   },
   "bugs": {
     "url": "https://github.com/grpc/grpc-node/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Michael Lumish",
@@ -40,7 +62,6 @@
     "lodash.camelcase": "^4.3.0",
     "protobufjs": "^6.8.6"
   },
-  "deprecated": false,
   "description": "gRPC utility library for loading .proto files",
   "devDependencies": {
     "@types/lodash.camelcase": "^4.3.4",
@@ -50,18 +71,38 @@
     "rimraf": "^3.0.2",
     "typescript": "~3.3.3333"
   },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-WwN9jVNdHRQoOBo9FDH7qU+mgfjPc8GygPYms3M+y3fbQLfnCe/Kv/E01t7JRgnrsOHH8euvSbed3mIalXhwqQ==",
+    "shasum": "6725e7a1827bdf8e92e29fbf4e9ef0203c0906a9",
+    "tarball": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.5.5.tgz",
+    "fileCount": 5,
+    "unpackedSize": 28023,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCKqvCRA9TVsSAnZWagAA9PsP/06ImUwneFkBmaIK+Q30\ngeaC3a8vljMdvs/yBEvQ63oETrpJpFgN/1JIuGLDf6Ze+ZwY69IfQ1yj4uls\nsNwshnocnbXZDyCNfnUsimtX+HLT5BWrNh5lBDBx/I2hCkCAxhwOiPONal+Z\nrksx1dhU0NNpweMUW5ox9ctpI2HizZe4aRGfypdDCwFx2aOvqFZdtFLPBF6Q\njO79ZfZuh0+1QtCOc+9ieAWLYtHMS9gPzSuhSXwb9dHGQ0BvHZ9P1em8ADcD\n6xlKmrc+/gzjj7mgOx0paGSQ0UjpFO5f67m+/bSYI/2pny3+67AsG1AGRRjz\nkdGKD3kCu8Esh2hkom75tpIti79ZbL5OhtGzDY6iwTjMdbv4ljEXjYFq4w/F\nqTbwZAg1Z7EgIz7uLt2TJdK7yue2v+k5ZudU90dxCLErmelYUGFrsxkWptiV\nUGjPo8BG4Qql90elIdE0dUq6cBidJ2RYJYqeCdhF1zylirQ4eYY1fyIH0IWf\n7czTpR6fo5IjxcEABRA1Yr6rmlcIR9Dr5igLTAHResWHmH4qYOa+O49uPWOA\ndbH3Q/qCp/17Cu10Ffxvd9LmVn3OC76vpbQQnS9GkkZVYQ5h9/JswJ4g84gu\nhZbAuwZvbQPLAX9LmhSn9ip0z3t08JJVqW5oepZSTAXe9F7auU4n2TJlJUI7\nBBSt\r\n=lgUF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
   "engines": {
     "node": ">=6"
   },
-  "files": [
-    "LICENSE",
-    "build/src/*.d.ts",
-    "build/src/*.js"
-  ],
   "homepage": "https://grpc.io/",
   "license": "Apache-2.0",
   "main": "build/src/index.js",
+  "maintainers": [
+    {
+      "name": "grpc-packages",
+      "email": "grpc-packages@google.com"
+    },
+    {
+      "name": "murgatroid99",
+      "email": "mlumish@google.com"
+    },
+    {
+      "name": "nicolasnoble",
+      "email": "nicolas@nobis-crew.org"
+    }
+  ],
   "name": "@grpc/proto-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grpc/grpc-node.git"

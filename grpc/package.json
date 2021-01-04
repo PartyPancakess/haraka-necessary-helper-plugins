@@ -1,0 +1,160 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "grpc@^1.21.1",
+        "scope": null,
+        "escapedName": "grpc",
+        "name": "grpc",
+        "rawSpec": "^1.21.1",
+        "spec": ">=1.21.1 <2.0.0",
+        "type": "range"
+      },
+      "/home/bilge/Documents/sadasds/node_modules/etcd3"
+    ]
+  ],
+  "_from": "grpc@>=1.21.1 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "grpc@1.24.4",
+  "_inCache": true,
+  "_location": "/grpc",
+  "_nodeVersion": "14.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/grpc_1.24.4_1605048907739_0.48170061257009533"
+  },
+  "_npmUser": {
+    "name": "murgatroid99",
+    "email": "mlumish@google.com"
+  },
+  "_npmVersion": "6.14.8",
+  "_phantomChildren": {
+    "ascli": "1.0.1",
+    "bytebuffer": "5.0.1",
+    "glob": "7.1.6",
+    "yargs": "3.32.0"
+  },
+  "_requested": {
+    "raw": "grpc@^1.21.1",
+    "scope": null,
+    "escapedName": "grpc",
+    "name": "grpc",
+    "rawSpec": "^1.21.1",
+    "spec": ">=1.21.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/etcd3"
+  ],
+  "_resolved": "https://registry.npmjs.org/grpc/-/grpc-1.24.4.tgz",
+  "_shasum": "9240a3ea33cfaf04cd32ce8346798709bbd6782d",
+  "_shrinkwrap": null,
+  "_spec": "grpc@^1.21.1",
+  "_where": "/home/bilge/Documents/sadasds/node_modules/etcd3",
+  "author": {
+    "name": "Google Inc."
+  },
+  "binary": {
+    "module_name": "grpc_node",
+    "module_path": "src/node/extension_binary/{node_abi}-{platform}-{arch}-{libc}",
+    "host": "https://node-precompiled-binaries.grpc.io/",
+    "remote_path": "{name}/v{version}",
+    "package_name": "{node_abi}-{platform}-{arch}-{libc}.tar.gz"
+  },
+  "bugs": {
+    "url": "https://github.com/grpc/grpc-node/issues"
+  },
+  "contributors": [
+    {
+      "name": "Michael Lumish",
+      "email": "mlumish@google.com"
+    }
+  ],
+  "dependencies": {
+    "@types/bytebuffer": "^5.0.40",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.clone": "^4.5.0",
+    "nan": "^2.13.2",
+    "node-pre-gyp": "^0.16.0",
+    "protobufjs": "^5.0.3"
+  },
+  "description": "gRPC Library for Node",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "electron-mocha": "^3.1.1",
+    "express": "^4.14.0",
+    "google-protobuf": "^3.0.0",
+    "istanbul": "^0.4.4",
+    "lodash": "^4.17.4",
+    "minimist": "^1.1.0",
+    "node-forge": "^0.7.5",
+    "poisson-process": "^0.2.1"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "dist": {
+    "integrity": "sha512-mHRAwuitCMuSHo1tp1+Zc0sz3cYa7pkhVJ77pkIXD5gcVORtkRiyW6msXYqTDT+35jazg98lbO3XzuTo2+XrcA==",
+    "shasum": "9240a3ea33cfaf04cd32ce8346798709bbd6782d",
+    "tarball": "https://registry.npmjs.org/grpc/-/grpc-1.24.4.tgz",
+    "fileCount": 1940,
+    "unpackedSize": 23333865,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfqxpMCRA9TVsSAnZWagAAibYP/06i+tUC83hlXffvwoAe\nW3mcqLsel/2lhV0RoOq9oGSbTvT9ZE3cfJpaGR9Xl0eyzTpOLO5+DWxEw5hg\nDb0Frw5glDMdQVUQ4EklZO8KQX9e7uTiNc3JBYImmADzzS/K1ThZidwuU0sV\n4/xmqwxAvltIl0scgiZLdBTCDVPCfKOC8NYe8n0rHlvMa9ZEArfCpFOiJr0h\ngGDsAIgNUhIDWDCrpwxoSAqQeqBGRdNfduZqpRm8p55SEROtwFdx/g81aOyX\nvRcT70KSyfsGWlraUTJsuAH1mfgQ+IHje/h8A4eCngF58kfikeGXtnoVQiax\nfUR7fnyfxBW8/ZxXiRxdIQXj4AlKB0JVmyMTV9fRuIezS7/ad6qBCyBL3Odp\nCOU2UE93Cox9x7JDeRzY6/DZB9dXDOPe5Y9WBxWxGNEMEESwjc/Bgq4v5WQQ\n38/YetjrDrtC19usZm1cxMX/BeQWf3ruLWy+LFBOfeQL8K3Nfu501RPRtdCJ\nGQV3kFyOzBATlTSiGRJMmYVVMkdo2TZkG8FNQt20AeASoVBjm2bWoOpkXLgS\nf5/1k55yaNSn14uYTIdKX9pX/tUOiNkNQpwLX1gfTzCezhmew8AU/muKjHu7\ndR4uast8OSJF9F71ebh14GPJ49+qHji+UdtNxgk7GBAbMkx9Fm/bBFXW+Nf0\nRuVY\r\n=md0h\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://grpc.io/",
+  "jshintConfig": {
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "esnext": true,
+    "freeze": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": "nofunc",
+    "maxlen": 80,
+    "mocha": true,
+    "newcap": true,
+    "node": true,
+    "noarg": true,
+    "quotmark": "single",
+    "strict": true,
+    "trailing": true,
+    "undef": true,
+    "unused": "vars"
+  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "murgatroid99",
+      "email": "mlumish@google.com"
+    },
+    {
+      "name": "grpc-packages",
+      "email": "grpc-packages@google.com"
+    },
+    {
+      "name": "nicolasnoble",
+      "email": "nicolas@nobis-crew.org"
+    }
+  ],
+  "name": "grpc",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grpc/grpc-node.git"
+  },
+  "scripts": {
+    "build": "node-pre-gyp build",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha test",
+    "electron-build": "node-pre-gyp configure build --runtime=electron --disturl=https://atom.io/download/atom-shell",
+    "install": "node-pre-gyp install --fallback-to-build --library=static_library",
+    "prepack": "git submodule update --init --recursive && npm install"
+  },
+  "typings": "index.d.ts",
+  "version": "1.24.4"
+}

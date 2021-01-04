@@ -1,0 +1,154 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "node-pre-gyp@^0.16.0",
+        "scope": null,
+        "escapedName": "node-pre-gyp",
+        "name": "node-pre-gyp",
+        "rawSpec": "^0.16.0",
+        "spec": ">=0.16.0 <0.17.0",
+        "type": "range"
+      },
+      "/home/bilge/Documents/sadasds/node_modules/grpc"
+    ]
+  ],
+  "_from": "node-pre-gyp@>=0.16.0 <0.17.0",
+  "_hasShrinkwrap": false,
+  "_id": "node-pre-gyp@0.16.0",
+  "_inCache": true,
+  "_location": "/node-pre-gyp",
+  "_nodeVersion": "8.14.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/node-pre-gyp_0.16.0_1604004657710_0.12468192126334454"
+  },
+  "_npmUser": {
+    "name": "nicolasnoble",
+    "email": "nicolas@nobis-crew.org"
+  },
+  "_npmVersion": "6.14.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node-pre-gyp@^0.16.0",
+    "scope": null,
+    "escapedName": "node-pre-gyp",
+    "name": "node-pre-gyp",
+    "rawSpec": "^0.16.0",
+    "spec": ">=0.16.0 <0.17.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/grpc"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.16.0.tgz",
+  "_shasum": "238fa540364784e5015dfcdba78da3937e18dbdc",
+  "_shrinkwrap": null,
+  "_spec": "node-pre-gyp@^0.16.0",
+  "_where": "/home/bilge/Documents/sadasds/node_modules/grpc",
+  "author": {
+    "name": "Dane Springmeyer",
+    "email": "dane@mapbox.com"
+  },
+  "bin": {
+    "node-pre-gyp": "bin/node-pre-gyp"
+  },
+  "bugs": {
+    "url": "https://github.com/mapbox/node-pre-gyp/issues"
+  },
+  "dependencies": {
+    "detect-libc": "^1.0.2",
+    "mkdirp": "^0.5.3",
+    "needle": "^2.5.0",
+    "nopt": "^4.0.1",
+    "npm-packlist": "^1.1.6",
+    "npmlog": "^4.0.2",
+    "rc": "^1.2.7",
+    "rimraf": "^2.6.1",
+    "semver": "^5.3.0",
+    "tar": "^4.4.2"
+  },
+  "description": "Node.js native addon binary install tool",
+  "devDependencies": {
+    "aws-sdk": "^2.28.0",
+    "jshint": "^2.9.5",
+    "nock": "^9.2.3",
+    "tape": "^4.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4efGA+X/YXAHLi1hN8KaPrILULaUn2nWecFrn1k2I+99HpoyvcOGEbtcOxpDiUwPF2ZANMJDh32qwOUPenuR1g==",
+    "shasum": "238fa540364784e5015dfcdba78da3937e18dbdc",
+    "tarball": "https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.16.0.tgz",
+    "fileCount": 31,
+    "unpackedSize": 155418,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfmysyCRA9TVsSAnZWagAAeLgP/RCSH5lEJx2Arynivq5s\nDiHvWA+534Daxydixp/yvlJd8MNCuvKEDqC9cy/uuCHxt03qSZBPu/YbSM9+\n5+WLy2dz7E0qlB1Wx5CpqVBC0r9jp1YHRRPKTuy5ZHyc57+F6ZCl09XzaAiE\nzlr/L7/OnuqG83V8lQs0qrpvPWdVkHFFldtGnU92NaR0pvkko4eBOAAbMxyb\nDjQxPOCJmAb9r6iVJp1dk7Dh/xGCWuT950Z0sdfCXCyEEnUxABPxlsWXTQd8\n/whwS7JNsS5us2qJlGervHiXoF+PZMJ38d1CLh3l1vetcWYTZSyERx4viJUZ\n2vcN6+HKmwDJ0RqePeQ+oonjfORBUQsekdOzOETofQKDE2qWDaW6OfvLU1GE\ndY+ZTyY5hUXVPOcqHTfB3o7Atafu28146L0+1gPF69Kcf8i3Oi8PGxVdW9YJ\nQQvock5K3l5+gLxqmeSxzEKk/Q0TEjpAZsL86yZlqRIVfrCEkliGUFHj7oa4\n0d6aLndmEQc3RxcxBqNWyyMUYe97vx4m9JhU/bkYyTiAFn/lFJ7NoKyN7YF5\nW2ULr5CTgjp6KqQcUOSPVyxTf5XG2HI7fqS0kMvlC12oOA5OQUi5R31/cgos\nxbAEQSF1789i26bdNRv3yeYfkATDDVbQW6zXQJ620wGFv8x4WXhG9DsURASM\n71xq\r\n=LJCD\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "ac2a149d836cbcd916c32cbcf25695485219e76b",
+  "homepage": "https://github.com/mapbox/node-pre-gyp#readme",
+  "jshintConfig": {
+    "node": true,
+    "globalstrict": true,
+    "undef": true,
+    "unused": false,
+    "noarg": true
+  },
+  "keywords": [
+    "native",
+    "addon",
+    "module",
+    "c",
+    "c++",
+    "bindings",
+    "binary"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./lib/node-pre-gyp.js",
+  "maintainers": [
+    {
+      "name": "springmeyer",
+      "email": "dane@mapbox.com"
+    },
+    {
+      "name": "gretacb",
+      "email": "carol@mapbox.com"
+    },
+    {
+      "name": "kkaefer",
+      "email": "mail@kkaefer.com"
+    },
+    {
+      "name": "flippmoke",
+      "email": "flippmoke@gmail.com"
+    },
+    {
+      "name": "bergwerkgis",
+      "email": "wb@bergwerk-gis.at"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@mapbox.com"
+    },
+    {
+      "name": "mapsam",
+      "email": "sam@mapbox.com"
+    },
+    {
+      "name": "nicolasnoble",
+      "email": "nicolas@nobis-crew.org"
+    }
+  ],
+  "name": "node-pre-gyp",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapbox/node-pre-gyp.git"
+  },
+  "scripts": {
+    "pretest": "jshint test/build.test.js test/s3_setup.test.js test/versioning.test.js test/fetch.test.js lib lib/util scripts bin/node-pre-gyp",
+    "test": "jshint lib lib/util scripts bin/node-pre-gyp && tape test/*test.js",
+    "update-crosswalk": "node scripts/abi_crosswalk.js"
+  },
+  "version": "0.16.0"
+}

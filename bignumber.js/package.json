@@ -1,43 +1,70 @@
 {
-  "_from": "bignumber.js@^9.0.0",
-  "_id": "bignumber.js@9.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==",
+  "_args": [
+    [
+      {
+        "raw": "bignumber.js@^5.0.0",
+        "scope": null,
+        "escapedName": "bignumber.js",
+        "name": "bignumber.js",
+        "rawSpec": "^5.0.0",
+        "spec": ">=5.0.0 <6.0.0",
+        "type": "range"
+      },
+      "/home/bilge/Documents/sadasds/node_modules/etcd3"
+    ]
+  ],
+  "_from": "bignumber.js@>=5.0.0 <6.0.0",
+  "_id": "bignumber.js@5.0.0",
+  "_inCache": true,
   "_location": "/bignumber.js",
+  "_nodeVersion": "8.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bignumber.js-5.0.0.tgz_1511817086538_0.6354776597581804"
+  },
+  "_npmUser": {
+    "name": "mikemcl",
+    "email": "M8ch88l@gmail.com"
+  },
+  "_npmVersion": "5.0.4",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "bignumber.js@^9.0.0",
-    "name": "bignumber.js",
+    "raw": "bignumber.js@^5.0.0",
+    "scope": null,
     "escapedName": "bignumber.js",
-    "rawSpec": "^9.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^9.0.0"
+    "name": "bignumber.js",
+    "rawSpec": "^5.0.0",
+    "spec": ">=5.0.0 <6.0.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "/etcd3",
-    "/json-bigint"
+    "/etcd3"
   ],
-  "_resolved": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.0.1.tgz",
-  "_shasum": "8d7ba124c882bfd8e43260c67475518d0689e4e5",
-  "_spec": "bignumber.js@^9.0.0",
-  "_where": "",
+  "_resolved": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-5.0.0.tgz",
+  "_shasum": "fbce63f09776b3000a83185badcde525daf34833",
+  "_shrinkwrap": null,
+  "_spec": "bignumber.js@^5.0.0",
+  "_where": "/home/bilge/Documents/sadasds/node_modules/etcd3",
   "author": {
     "name": "Michael Mclaughlin",
     "email": "M8ch88l@gmail.com"
   },
-  "browser": "bignumber.js",
   "bugs": {
     "url": "https://github.com/MikeMcl/bignumber.js/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "A library for arbitrary-precision decimal and non-decimal arithmetic",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-KWTu6ZMVk9sxlDJQh2YH1UOnfDP8O8TpxUxgQG/vKASoSnEjK9aVuOueFaPcQEYQ5fyNXNTOYwYw3099RYebWg==",
+    "shasum": "fbce63f09776b3000a83185badcde525daf34833",
+    "tarball": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-5.0.0.tgz"
+  },
   "engines": {
     "node": "*"
   },
+  "gitHead": "861ecdc59cb94720dfe3900594da01db99b04ded",
   "homepage": "https://github.com/MikeMcl/bignumber.js#readme",
   "keywords": [
     "arbitrary",
@@ -54,17 +81,24 @@
     "bignum"
   ],
   "license": "MIT",
-  "main": "bignumber",
-  "module": "bignumber.mjs",
+  "main": "bignumber.js",
+  "maintainers": [
+    {
+      "name": "mikemcl",
+      "email": "M8ch88l@gmail.com"
+    }
+  ],
   "name": "bignumber.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MikeMcl/bignumber.js.git"
   },
   "scripts": {
-    "build": "uglifyjs bignumber.js --source-map -c -m -o bignumber.min.js",
-    "test": "node test/test"
+    "build": "uglifyjs bignumber.js --source-map bignumber.js.map -c -m -o bignumber.min.js --preamble \"/* bignumber.js v5.0.0 https://github.com/MikeMcl/bignumber.js/LICENCE */\"",
+    "test": "node ./test/every-test.js"
   },
   "types": "bignumber.d.ts",
-  "version": "9.0.1"
+  "version": "5.0.0"
 }

@@ -1,27 +1,51 @@
 {
-  "_from": "protobufjs@^6.8.6",
+  "_args": [
+    [
+      {
+        "raw": "protobufjs@^6.8.6",
+        "scope": null,
+        "escapedName": "protobufjs",
+        "name": "protobufjs",
+        "rawSpec": "^6.8.6",
+        "spec": ">=6.8.6 <7.0.0",
+        "type": "range"
+      },
+      "/home/bilge/Documents/sadasds/node_modules/@grpc/proto-loader"
+    ]
+  ],
+  "_from": "protobufjs@>=6.8.6 <7.0.0",
+  "_hasShrinkwrap": false,
   "_id": "protobufjs@6.10.2",
-  "_inBundle": false,
-  "_integrity": "sha512-27yj+04uF6ya9l+qfpH187aqEzfCF4+Uit0I9ZBQVqK09hk/SQzKa2MUqUpXaVa7LOFRg1TSSr3lVxGOk6c0SQ==",
+  "_inCache": true,
   "_location": "/protobufjs",
+  "_nodeVersion": "10.22.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/protobufjs_6.10.2_1605561394120_0.8578340673118987"
+  },
+  "_npmUser": {
+    "name": "google-wombot",
+    "email": "node-team-npm+wombot@google.com"
+  },
+  "_npmVersion": "6.14.6",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
     "raw": "protobufjs@^6.8.6",
-    "name": "protobufjs",
+    "scope": null,
     "escapedName": "protobufjs",
+    "name": "protobufjs",
     "rawSpec": "^6.8.6",
-    "saveSpec": null,
-    "fetchSpec": "^6.8.6"
+    "spec": ">=6.8.6 <7.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/@grpc/proto-loader"
   ],
   "_resolved": "https://registry.npmjs.org/protobufjs/-/protobufjs-6.10.2.tgz",
   "_shasum": "b9cb6bd8ec8f87514592ba3fdfd28e93f33a469b",
+  "_shrinkwrap": null,
   "_spec": "protobufjs@^6.8.6",
-  "_where": "",
+  "_where": "/home/bilge/Documents/sadasds/node_modules/@grpc/proto-loader",
   "author": {
     "name": "Daniel Wirtz",
     "email": "dcode+protobufjs@dcode.io"
@@ -33,7 +57,6 @@
   "bugs": {
     "url": "https://github.com/dcodeIO/protobuf.js/issues"
   },
-  "bundleDependencies": false,
   "cliDependencies": [
     "semver",
     "chalk",
@@ -61,7 +84,6 @@
     "@types/node": "^13.7.0",
     "long": "^4.0.0"
   },
-  "deprecated": false,
   "description": "Protocol Buffers for JavaScript (& TypeScript).",
   "devDependencies": {
     "benchmark": "^2.1.4",
@@ -83,7 +105,7 @@
     "gulp-if": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "jaguarjs-jsdoc": "github:dcodeIO/jaguarjs-jsdoc",
+    "jaguarjs-jsdoc": "github:dcodeio/jaguarjs-jsdoc",
     "jsdoc": "^3.6.3",
     "minimist": "^1.2.0",
     "nyc": "^15.0.0",
@@ -98,23 +120,15 @@
     "vinyl-fs": "^3.0.3",
     "vinyl-source-stream": "^2.0.0"
   },
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "light.d.ts",
-    "light.js",
-    "minimal.d.ts",
-    "minimal.js",
-    "package-lock.json",
-    "tsconfig.json",
-    "scripts/postinstall.js",
-    "bin/**",
-    "cli/**",
-    "dist/**",
-    "ext/**",
-    "google/**",
-    "src/**"
-  ],
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-27yj+04uF6ya9l+qfpH187aqEzfCF4+Uit0I9ZBQVqK09hk/SQzKa2MUqUpXaVa7LOFRg1TSSr3lVxGOk6c0SQ==",
+    "shasum": "b9cb6bd8ec8f87514592ba3fdfd28e93f33a469b",
+    "tarball": "https://registry.npmjs.org/protobufjs/-/protobufjs-6.10.2.tgz",
+    "fileCount": 115,
+    "unpackedSize": 3264578,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfsuwyCRA9TVsSAnZWagAA66IP/0dRAR+IXLe8S2Nw/F0C\nE9nmz8C1W3hqkdwquSAxY2OkRH9iGYht8RaxOlEgAcm83NQVQzbKmObZL3qJ\ndYTajSHb9nNcpGhHEA9s7H1nzLoBGfnvbN5GjWK+cz8g9R7vaWwDNSRs6eZK\njnDPQZDaR6K9ppqBtv2kMhw5eJ/8VB5HhYVWzw+7dLPj1HX7B8AhTyYrvLum\n2iRu/WKS2LQUngGaUTy1wdpZ2rs9ktKAJ220ANb5dMM490ih5hWIMaYWQkCT\nUZHsM1Y4ncLCL+tKI04jOYuecxeOkDWk9T8FxSsWqxyNVZCsDXmIoaxsBml3\nVpnl64NAWJnkJ4JzBTKzest9lLIuVQ2FR/HV5BYAMv9uaiqDeYwRBQV+uwnb\nw4SBknpyWP+5IjDLWk8YDTPwh+wGiVzijIxehT6LzKnmpqzV8gG+NJKhZTLC\nJhH1sbRS6hz139zS3VYiBJn+aqxhy6+6gHPXr05HkUA40ZmZbtz8jjKg4O1g\njztVlTDvIljBIXq62vtk6T56xTo3I5EMIQUNmHGP/YDFaMRuUHsXQqopQgG3\nKryoDUARgjt+3H3wx8aaawCs/V/GeeUXruVkmlYWpRdZ+gK7B966i6hLvRDs\nVZ/4TmOdz5/q1KSwGqcI7QtF7Po+8LMF/k64cchVJYooGJNpwHm+ieZwnYrO\nGDR3\r\n=Qz4Q\r\n-----END PGP SIGNATURE-----\r\n"
+  },
   "homepage": "https://protobufjs.github.io/protobuf.js/",
   "keywords": [
     "protobuf",
@@ -124,7 +138,23 @@
   ],
   "license": "BSD-3-Clause",
   "main": "index.js",
+  "maintainers": [
+    {
+      "name": "dcode",
+      "email": "dcode+npm@dcode.io"
+    },
+    {
+      "name": "protobufjs",
+      "email": "dcode+protobufjs@dcode.io"
+    },
+    {
+      "name": "google-wombot",
+      "email": "node-team-npm+wombot@google.com"
+    }
+  ],
   "name": "protobufjs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/protobufjs/protobuf.js.git"
